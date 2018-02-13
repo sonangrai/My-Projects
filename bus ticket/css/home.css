@@ -1,0 +1,404 @@
+
+.responsive
+{
+    width: 100%;
+    height: auto;
+}
+.logo
+{
+  float:left;
+}
+.container
+{
+  height:104px;
+  width:100%;
+}
+.rowinfo
+{
+  margin-top: 20px;
+  margin-right:68px;
+}
+.rowsearch
+{
+  margin-top: -6px;
+  margin-right:68px;
+  margin-left: 159px;
+}
+.head-element
+{
+  padding-right: 0px;
+  font-family: mangal regular;
+  display:block;
+  text-align: right;
+  margin-top: 40px;
+}
+.search-bar
+{
+  padding-right: 0px;
+  display: block;
+  padding-left: 10px;
+  text-align: right;
+}
+.search-box
+{
+  right: 42px;
+  border-radius: 15px;
+  color:white;
+}
+.iconsearch
+{
+  color:black;
+}
+#search
+{
+  margin-top: 4px;
+  border-radius: 12px;
+  padding-left:20px;
+  width:80%;
+  height:25px;
+  float:left;
+}
+.search-btn
+{
+  margin-top: 4px;
+  border-radius: 12px;
+  height:27px;
+}
+.menu
+{
+  height: auto;
+  margin-bottom: -10px;
+}
+.search-route
+{
+  position:relative;
+}
+.search-input
+{
+  position:absolute;
+  top:40%;
+  left:20%;
+}
+.route
+{
+  position: absolute;
+  top:10%;
+  left:40%;
+  font-size: 40px;
+  font-family:monospace;
+}
+#box
+{
+  border:3px solid skyblue;
+  border-radius: 12px;
+  width:100%;
+  height:30px;
+  padding-left: 20px;
+}
+#search-button
+{
+  background-color: skyblue;
+  border:3px solid skyblue;
+  color:white;
+    border-radius: 12px;
+    height:30px;
+}
+.search-input ul li
+{
+  list-style: none;
+  float:left;
+
+}
+.featuring
+{
+  font-size: 20px;
+  height:50px;
+  width:100%;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.feature-content
+{
+  background-color: black;
+}
+.content ul li
+{
+  list-style: none;
+  float:left;
+  color: white;
+  padding-left: 20px;
+}
+.content-des ul li
+{
+  list-style: none;
+  float:left;
+  height:auto;
+  width:100%;
+}
+.about
+{
+  font-size: 20px;
+  height:50px;
+  width:100%;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.gallery
+{
+  font-size: 20px;
+  height:50px;
+  width:100%;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.about-info
+{
+  background-color: black;
+  font-size: 14px;
+  font-family:mangal;
+  color:white;
+}
+.aim
+{
+  font-size: 20px;
+  height:50px;
+  width:100%;
+  display: block;
+  text-align: center;
+}
+.footer
+{
+  background-color: black;
+  height:auto;
+  width:100%;
+}
+.social ul li
+{
+  list-style: none;
+  float:left;
+  color:white;
+}
+.mone ul
+{
+  padding-left: 47px;
+  margin-top: 10px;
+}
+.mone ul li
+{
+  list-style: none;
+  float:left;
+  color:white;
+  font-size: 10px;
+  padding-left:20px;
+}
+.copyrights
+{
+  color:white;
+  font-size: 8px;
+  margin-top:1%;
+}
+@media (max-width:480px)
+{
+  .route
+  {
+    font-size: 18px;
+  }
+  .search-input ul li
+  {
+    list-style: none;
+  }
+  .content ul li
+  {
+    list-style: none;
+    float:left;
+    color: white;
+    font-size: 10px;
+  }
+  .about-info
+  {
+    font-size: 10px;
+  }
+  .aim
+  {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .social ul li
+  {
+    padding-left: 46px;
+  }
+  .mone
+  {
+    margin-left: 80px;
+    background-color: black;
+  }
+  .copyrights
+  {
+    margin-left: 190px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px)
+{
+  .route
+  {
+    font-size: 20px;
+    font-family: jokerman;
+  }
+  .search-input
+  {
+    margin-left: 10%;
+  }
+  #search-button
+  {
+    margin-left:58px;
+  }
+  .search-input ul li
+  {
+    list-style: none;
+    float: none;
+  }
+  .content ul li
+  {
+    list-style: none;
+    float:left;
+    color: white;
+    font-size: 10px;
+  }
+  .about-info
+  {
+    font-size: 14px;
+  }
+  .aim
+  {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .social ul li
+  {
+    display: block;
+    text-align: right;
+    margin-top:12px;
+  }
+  .mone ul
+  {
+    margin-left: 54%;
+  }
+  .copyrights
+  {
+      margin-left:75%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+  .route
+  {
+    font-size: 25px;
+    font-family: jokerman;
+  }
+  .search-input
+  {
+    margin-left: -84px;
+  }
+  #search-button
+  {
+    float: left;
+  }
+  .search-input ul li
+  {
+    list-style: none;
+    float: left;
+  }
+  .content ul li
+  {
+    list-style: none;
+    float:left;
+    color: white;
+    font-size: 10px;
+  }
+  .about-info
+  {
+    font-size: 16px;
+  }
+  .aim
+  {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .social ul li
+  {
+    display: block;
+    text-align: right;
+    margin-top:12px;
+  }
+  .mone ul
+  {
+    margin-left: 54%;
+  }
+  .copyrights
+  {
+      margin-left:75%;
+  }
+}
+@media (min-width: 993px)
+{
+  .route
+  {
+    font-size: 40px;
+    font-family: jokerman;
+  }
+  .search-input
+  {
+    margin-left: 2px;
+  }
+  #search-button
+  {
+    float: left;
+  }
+  #box
+  {
+    height:50px;
+    width:200px;
+  }
+  #search-button
+  {
+    height:50px;
+  }
+  .search-input ul li
+  {
+    list-style: none;
+    float: left;
+  }
+  .content ul li
+  {
+    list-style: none;
+    float:left;
+    color: white;
+    font-size: 16px;
+  }
+  .about-info
+  {
+    font-size: 16px;
+  }
+  .aim
+  {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .social ul li
+  {
+    display: block;
+    text-align: right;
+    margin-top:12px;
+  }
+  .mone ul
+  {
+    margin-left: 75%;
+  }
+  .copyrights
+  {
+      margin-left:87%;
+  }
+}
